@@ -1,0 +1,109 @@
+body{
+    font-family: "DM Sans";
+    background-color: rgb(220, 213, 205);
+    text-align: center;
+}
+
+div{
+    flex-direction: row;
+}
+
+span{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    border-radius: 3%;
+}
+
+.bigContainer-1, .bigContainer-3{
+    flex-direction: column;
+}
+
+#container-4 {
+    background-color: hsl(254, 88%, 90%);
+}
+
+#container-5 {
+    flex-direction: row;
+}
+
+#container-1, #container-5 {
+    background-color: hsl(256, 67%, 59%);
+}
+
+#container-2, #container-6 {
+    background-color: white;
+}
+
+#container-3, #container-8 {
+    background-color: hsl(39, 100%, 71%);
+}
+
+.title-2, .title-1 {
+    font-size: 35px;
+    font-weight: 700;
+}
+
+#container-7 {
+    background-color: hsl(31, 66%, 93%);
+}
+
+#container-7, #container-8{
+    height:375px;
+    width: 90%;
+    margin-right:10%;
+    margin-bottom: 0.5em;
+    padding: 2%;
+    font-size: 30px;
+    font-weight: 600;
+}
+
+#container-7 span {
+    color:hsl(256, 67%, 59%);
+    font-style: italic;
+}
+
+.img-1{
+    height: 200px;
+    width: 250px;
+}
+
+.img-2{
+    height: 300px;
+    width: 250px;
+}
+
+.aside-2 {
+    float: right;
+    margin-right: 37%;
+}
+
+#aside-3 {
+    float: right;
+    margin-right: 5%;
+}
+
+.inline-content {
+    margin-left: 50%;
+    float: right;
+}
+
+#container-2{
+    width: 40%;
+    margin-right: 47%;
+    height: 200px;
+}
+
+.img-4, .img-5{
+    width: 95%;
+}
+
+#container-4, .img-7{
+    width: 50%;
+    height: 500px;
+}
+
+.img-3 {
+    width: 630px;
+}
