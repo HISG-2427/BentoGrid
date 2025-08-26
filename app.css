@@ -54,6 +54,7 @@ article div:nth-of-type(2) img, #box-2 img {
 }
 #box-1 span{
     font-size: 35px;
+    color: hsl(39, 100%, 71%);
 }
 #box-2 {
     padding: 1em;
